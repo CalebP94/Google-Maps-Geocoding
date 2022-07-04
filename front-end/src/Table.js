@@ -5,7 +5,7 @@ import "./App.css"
 
 export default function Table(){
     //const URL = "http://localhost:5000"
-    const URL = "https://googlemaps-nodejs-backend.herokuapp.com/"
+    const URL = "https://google-maps-rich2-backend.herokuapp.com/"
 
     console.log("URL", URL)
     const [rootControlWork, setrootControlWork] = useState([]);
