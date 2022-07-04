@@ -15,7 +15,7 @@ import Table from "./Table";
 import Layout from "./Layout";
 export default function Map() {
     
-    const URL = "http://localhost:5000";
+    const URL = "https://google-maps-rich2-backend.herokuapp.com";
     const { isLoaded } = useLoadScript({
         googleMapsApiKey: "AIzaSyDienyZ6LR0VlXwoDKREjQx4IUpEwmZpB8",
       });
