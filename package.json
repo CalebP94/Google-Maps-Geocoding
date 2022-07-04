@@ -1,0 +1,13 @@
+{
+  "name": "googlemaps",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "npx concurrently \"npm run start:dev --prefix ./back-end\" \"npm start --prefix ./front-end\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
