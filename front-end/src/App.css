@@ -33,3 +33,22 @@ body {
   width:500px;
 }
 
+
+@media (max-height: 650px){
+  .map-container {
+    height: 800px;
+    width: 100%;
+    margin-left:15px;
+    margin-top: 20px;
+    padding: 25px;
+    position:absolute;
+    top:0px;
+  } 
+  .form-section{
+    position:absolute;
+    margin-top:15%;
+    margin-left:15px;
+    width:500px;
+  }
+}
+
